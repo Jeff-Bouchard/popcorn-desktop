@@ -1,0 +1,737 @@
+repo_name: Jeff-Bouchard/popcorn-desktop
+report_id: a5a12b9d57ade09f78e452a2d7ef522d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:46:23+00:00'
+requested_by: kiriles90
+provider: github
+branch: development
+detected_tools_count: 53
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: Backbone.js
+  description: Give your JS App some Backbone with Models, Views, Collections, and
+    Events
+  website_url: http://backbonejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: Team PCT
+  last_updated_on: 2020-03-13 14:20:42.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: Stylus
+  description: Expressive, robust, feature-rich CSS language built for nodejs
+  website_url: http://stylus-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1172/stylus.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: Ivan Borzenkov
+  last_updated_on: 2021-06-21 18:48:40.000000000 Z
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-05-23 20:34:10.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Team Pct
+  last_updated_on: 2018-11-30 13:08:34.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 6.4.0
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.10.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-08-23 16:08:10.000000000 Z
+- name: Q
+  description: A promise library for JavaScript
+  website_url: https://github.com/kriskowal/q
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop
+  detection_source: Repo Metadata
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: webtorrent
+  description: Streaming torrent client for the web, Mac, Windows, Linux, and Node.js.
+  website_url: https://webtorrent.io/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9511/snKFTusU_normal.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/package.json
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 06:56:34.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 6.4.0
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.4.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Persei08
+  last_updated_on: 2020-09-29 19:41:43.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 0.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-13 04:09:59.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: gulp-filter
+  description: Filter files in a `vinyl` stream
+  package_url: https://www.npmjs.com/gulp-filter
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16385/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-gzip
+  description: Gzip plugin for gulp
+  package_url: https://www.npmjs.com/gulp-gzip
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17577/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-jsbeautifier
+  description: Js-beautify for Gulp
+  package_url: https://www.npmjs.com/gulp-jsbeautifier
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18343/default_184dcb86fb81ac8ceaaf92492886106219fc04d9.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-jshint
+  description: JSHint plugin for gulp
+  package_url: https://www.npmjs.com/gulp-jshint
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16050/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-stylus
+  description: Stylus plugin for gulp
+  package_url: https://www.npmjs.com/gulp-stylus
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16928/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: gulp-zip
+  description: ZIP compress files
+  package_url: https://www.npmjs.com/gulp-zip
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16846/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: i18n
+  description: Lightweight translation module with dynamic json storage
+  package_url: https://www.npmjs.com/i18n
+  version: 0.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17931/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Ivan Borzenkov
+  last_updated_on: 2022-08-17 21:36:49.000000000 Z
+- name: iconv-lite
+  description: Convert character encodings in pure javascript
+  package_url: https://www.npmjs.com/iconv-lite
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: jshint-stylish
+  description: Stylish reporter for JSHint
+  package_url: https://www.npmjs.com/jshint-stylish
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: memoizee
+  description: Memoize/cache function results
+  package_url: https://www.npmjs.com/memoizee
+  version: 0.4.15
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18496/default_db00a6c1af5a4fa1e8ab7164ff7ad16844777229.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Team Pct
+  last_updated_on: 2018-11-29 11:17:48.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Gabriele Petrioli
+  last_updated_on: 2021-01-20 18:19:13.000000000 Z
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: mv
+  description: Fs.rename but works across devices
+  package_url: https://www.npmjs.com/mv
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17889/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: nib
+  description: Stylus mixins and utilities
+  package_url: https://www.npmjs.com/nib
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17041/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: readdirp
+  description: Recursive version of fs.readdir with streaming API
+  package_url: https://www.npmjs.com/readdirp
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17897/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Gabriele Petrioli
+  last_updated_on: 2021-01-20 18:19:13.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Team Pct
+  last_updated_on: 2018-11-29 11:17:48.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Ivan Borzenkov
+  last_updated_on: 2021-08-29 14:09:12.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-24 04:48:40.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: send
+  description: Better streaming static file server with Range and conditional-GET
+    support
+  package_url: https://www.npmjs.com/send
+  version: 0.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2023-07-08 11:41:18.000000000 Z
+- name: tar
+  description: Tar for node
+  package_url: https://www.npmjs.com/tar
+  version: 4.4.18
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: Some Popcorn Time Contributor
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: urijs
+  description: URI.js is a Javascript library for working with URLs
+  package_url: https://www.npmjs.com/urijs
+  version: 1.19.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17237/default_4cd9fed0bfdeacace38f5fa25eb085538f01330b.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-13 00:15:05.000000000 Z
+- name: video.js
+  description: An HTML5 and Flash video player with a common API and skin for both
+  package_url: https://www.npmjs.com/video.js
+  version: 4.11.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17668/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2020-12-27 18:12:36.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in video.js
+    cve_id: CVE-2021-23414
+    cve_url: https://github.com/advisories/GHSA-pp7m-6j83-m7r6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 7.14.3
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Jeff-Bouchard/popcorn-desktop/blob/development/yarn.lock
+  detection_source: package.json
+  last_updated_by: kiriles90
+  last_updated_on: 2021-01-05 05:43:46.000000000 Z
